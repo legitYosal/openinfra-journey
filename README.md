@@ -11,3 +11,15 @@ So here we are...
 6. OpenInfra Account: Join to [https://openinfra.dev/](https://openinfra.dev/), And create an indivisual account.
 
 Ok I think these are enough to start next go to next step...
+
+# Git commit messages
+Yep it is very heavily instructed to how you may commit something... First we will read this [https://wiki.openstack.org/wiki/GitCommitMessages](https://wiki.openstack.org/wiki/GitCommitMessages), you can summarize it in:
+1. The cardinal rule for creating good commits is to ensure there is only one "logical change" per commit.
+2. A very good and complement description.
+3. You shall respect machine metadata, I think they are auto generated but incase check `Including external references` out in main reference.
+
+At the end I think you shall read the main reference very carefully, and you can see examples seemply by using `git log` on main projects.
+
+
+
+
