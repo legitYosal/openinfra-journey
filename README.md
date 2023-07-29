@@ -21,5 +21,31 @@ Yep it is very heavily instructed to how you may commit something... First we wi
 At the end I think you shall read the main reference very carefully, and you can see examples seemply by using `git log` on main projects.
 
 
+# An contribution example on legecy
+Randomly found this commit on Masakari:
+```
+commit 9d1b9e3e9bd2d88749eae279d65149301f3db5a9
+Author: sue <sugar-2008@163.com>
+Date:   Thu Nov 17 10:26:15 2022 +0800
+
+    Fix notfication stuck into running status when timeout
+    
+    For instance or process failure workflow, the failure notification
+    would stuck into running status if timeout.
+    
+    Closes-Bug: #1996835
+    Change-Id: I61e941ab9dd831369fcc46a132ae2b11c1dd23ba
+    (cherry picked from commit 7ec3edda1ada9c2464d79c84b0fd1d1be22f9336)
+```
+As you can see this closes a bug with ID #1996835, And so when you search it you will find the launchpad bug: [https://bugs.launchpad.net/masakari/+bug/1996835](https://bugs.launchpad.net/masakari/+bug/1996835), And if you mine enough you will find out the Gerrit review tab: [https://review.opendev.org/c/openstack/masakari/+/864807](https://review.opendev.org/c/openstack/masakari/+/864807).  
+This is very interesting as you can see contributor just issued the bug on launchpad, and after discussion introduced the fix on Gerrit himself and after review process it was merged into master, and other supported releases... I think I have a general view on openstack contribution.  
+
+# Next steps
+Here I am, thinking about how can I create a staging setup, or how I can run Openstack projects simpler, I have some bugs from previous encounters, I can try to replicate them bugs and add their issue or track the old issue related to them, Or I can search in storyboard and track some simple issues...  
+
+For the time being I am going to read more on [https://opendev.org/openstack/contributor-guide](https://opendev.org/openstack/contributor-guide)...  
+
+
+
 
 
