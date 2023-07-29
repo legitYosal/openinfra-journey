@@ -21,7 +21,7 @@ Yep it is very heavily instructed to how you may commit something... First we wi
 At the end I think you shall read the main reference very carefully, and you can see examples seemply by using `git log` on main projects.
 
 
-# An contribution example on legecy
+# A contribution example on legecy
 Randomly found this commit on Masakari:
 ```
 commit 9d1b9e3e9bd2d88749eae279d65149301f3db5a9
