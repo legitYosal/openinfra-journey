@@ -13,13 +13,22 @@ So here we are...
 Ok I think these are enough to start next go to next step...
 
 # Git commit messages
-Yep it is very heavily instructed to how you may commit something... First we will read this [https://wiki.openstack.org/wiki/GitCommitMessages](https://wiki.openstack.org/wiki/GitCommitMessages), you can summarize it in:
+Yep it is very heavily instructed to how you may commit something... First we will read this [https://docs.openstack.org/contributors/common/git.html#commit-messages](https://docs.openstack.org/contributors/common/git.html#commit-messages), you can summarize it in:
 1. The cardinal rule for creating good commits is to ensure there is only one "logical change" per commit.
 2. A very good and complement description.
 3. You shall respect machine metadata, I think they are auto generated but incase check `Including external references` out in main reference.
-
+4. Format:
+```
+    Summary Line
+    Empty line
+    Body
+    Empty line
+    Footers
+```
 At the end I think you shall read the main reference very carefully, and you can see examples seemply by using `git log` on main projects.
 
+# Gerrit
+Install and config git review [https://docs.openstack.org/contributors/common/setup-gerrit.html](https://docs.openstack.org/contributors/common/setup-gerrit.html).
 
 # A contribution example on legecy
 Randomly found this commit on Masakari:
@@ -45,7 +54,7 @@ Here I am, thinking about how can I create a staging setup, or how I can run Ope
 
 For the time being I am going to read more on [https://opendev.org/openstack/contributor-guide](https://opendev.org/openstack/contributor-guide)...  
 
-
+Bug triage and blue prints => [https://docs.opendev.org/opendev/infra-manual/latest/developers.html#quick-reference](https://docs.opendev.org/opendev/infra-manual/latest/developers.html#quick-reference)
 
 
 
